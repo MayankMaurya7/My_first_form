@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  background: #344a72;
+  /* font-family: 'Raleway', sans-serif; */
+}
+/* .container{
+    font-family: 'Raleway', sans-serif;
+} */
+.form-wrap {
+  /* font-family: 'Raleway', sans-serif; */
+  background: #ffffff;
+  max-height: 580px;
+  max-width: 380px;
+  margin: 20px auto;
+  margin-bottom: 0;
+  padding: 20px;
+  border: #344a60 solid 2px;
+  border-radius: 2px;
+}
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+  margin: 10px;
+}
+.form-wrap span {
+  color: #333;
+  font-weight: 600;
+}
+
+.form-group label {
+  display: block;
+  margin-top: 20px;
+}
+.form-group input {
+  border-radius: 2px;
+  width: 100%;
+  padding: 3px;
+  line-height: 1.4em;
+}
+.btn {
+  background: #49c1a2;
+  color: #ffffff;
+  width: 100%;
+  height: 2.5em;
+  border-radius: 5px;
+  display: block;
+  margin: 15px 0 20px 0;
+}
+.btn:hover {
+  background: #37a08e;
+  cursor: pointer;
+}
+.bottom-text {
+  width: 100%;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+.bottom-text a:hover {
+  color: #000055;
+}
+.login {
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+.login a {
+  color: #49c1a2;
+}
+.login a:hover {
+  color: #37a08e;
+}
